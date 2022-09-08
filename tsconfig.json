@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es2021",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "lib",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ]
+        },
+        "lib": ["ES2021"],
+
+        "incremental": true,
+
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+
+        "traceResolution": false,
+        "listEmittedFiles": false,
+        "listFiles": false,
+        "pretty": true,
+        "declaration": true,
+
+        "experimentalDecorators": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "paths": {
+        "*": [
+            "node_modules/*",
+            "src/**/@types/*",
+            "src/@types/*"
+        ]
+    }
+}
+
